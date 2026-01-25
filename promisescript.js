@@ -2,7 +2,8 @@
 let myPromise = new Promise((resolve,reject) => {
     setTimeout(() => {
         resolve("Promise resolved")
-    },6000)})
+    },6000)
+});
 
 //Console log before calling the promise
 console.log("Before calling promise");
